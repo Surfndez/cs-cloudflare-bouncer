@@ -117,7 +117,7 @@ func main() {
 	onlySetup := flag.Bool("s", false, "only setup the ip lists and rules for cloudflare and exit")
 	delete := flag.Bool("d", false, "delete IP lists and firewall rules which are created by the bouncer")
 	ver := flag.Bool("v", false, "Display version information and exit")
-	logAPIRequests := flag.Bool("lc", false, "logs API requests")
+	// logAPIRequests := flag.Bool("lc", false, "logs API requests")
 
 	flag.Parse()
 
